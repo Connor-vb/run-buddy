@@ -4,26 +4,6 @@
     box-sizing: border-box;
 }
 
-/* CSS Section Rules Start */
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-/* CSS Section Rules End */
-
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -171,8 +151,27 @@ section {
 .steps span {
     font-size: 38px;
 }
-
 /* What You Do End */
+
+/* CSS Section Rules Start */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* CSS Section Rules End */
 
 /* Meet the Trainers Start */
 
@@ -243,5 +242,18 @@ section {
     text-align: left;
     margin: 30px 0 0 60px;
     color: white;
+}
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+.contact-info a {
+    color: #fce138;
 }
 /* Reach out end */
